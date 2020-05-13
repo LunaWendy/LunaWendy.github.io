@@ -45,5 +45,32 @@
     <footer>
       <a href="#logo">&#8593; nach oben &#8593;</a>
     </footer>
+    <script type="text/javascript">
+    if(screen.width <= 760) {
+    document.body.innerHTML =
+    `
+    <meta
+     name='viewport'
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
+    />
+    <div class="mobile" style="padding-top:10vw">
+        <p class="changeontap">romina-begus.de</p>
+        <div style="position: absolute; top: 15vh;">
+        <p>Hallo :)</p>
+        <p>Bitte besucht meine Website auf einem Desktop,
+        damit ihr meine Projekte in voller Größe betrachten könnt.</p>
+        <p>Vielen Dank!</p>
+        </div>
+    </div>
+    `;
+    document.addEventListener('click', function(ev) {
+        let pFontChange = document.querySelector(".changeontap");
+        pFontChange.style.fontSize = "4.8vh";
+        pFontChange.style.fontFamily = randomFont();
+    });
+}
+
+
+    </script>
   </body>
 </html>
