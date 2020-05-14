@@ -200,34 +200,40 @@ img {
   grid-row: 1;
 }
 
-.PrinzipienAnimation {
+.JedenTag {
   grid-column-start: 2;
   grid-column-end: 4;
-  grid-row: 3;
+  grid-row: 3
 }
 
-.Knete {
+.PrinzipienAnimation {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row: 5;
 }
 
-.Groundcontrol{
+.Knete {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row: 7;
 }
 
-.KnightRider {
+.Groundcontrol{
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row: 9;
 }
 
-.Kaleidoskop {
+.KnightRider {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row: 11;
+}
+
+.Kaleidoskop {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row: 13;
 }
 
 /*Boxen 3d*/
