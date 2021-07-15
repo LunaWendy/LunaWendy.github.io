@@ -101,11 +101,11 @@ Video passe dich der Box an*/
 
 #logo h1  {
   border-radius: 10px;
-  color: #271300;
+  color: lightgrey;
 }
 
 #logo h1 a:visited {
-  color: #271300;
+  color: lightgrey;
 }
 
  footer a:visited {
