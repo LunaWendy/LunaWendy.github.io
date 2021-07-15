@@ -18,7 +18,6 @@ header, footer {
 /* Unterstreichung von Links entfernen und Farbe*/
 a:link {
   text-decoration: none;
-  color: red;
 }
 a:visited {
   color: lightgrey;
